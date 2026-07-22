@@ -4,22 +4,22 @@ cask "sslcheck" do
 
   on_macos do
     on_intel do
-      sha256 "e39273285b278bc0b99b4060a8c8bf6432dfa62e48ce542f92ab5d9d1b774c44"
+      sha256 "2ec9b6d861fd40ae38644a70248bf4088e5b03e275e82255a3f74e7d885f6656"
       url "https://github.com/auth-it-center/sslcheck/releases/download/v#{version}/sslcheck_Darwin_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "6ad9da370fa742fc250e0d5182b75cc51d6b388b55783104f84b7ab8c97504e7"
+      sha256 "ae01d85675b1de1ed67f07e7570d31ff6e5ecc3a315e74401fdce2260b64f1bc"
       url "https://github.com/auth-it-center/sslcheck/releases/download/v#{version}/sslcheck_Darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "fbe85e1299d9c0d2c85371fe6f52bf2ff54970b002be8d64ae409039692bca3e"
+      sha256 "b67e4d8c26d80d74fc1158d1792b58cbf2c7de0b4e7924d6b3cbd1d643a332e3"
       url "https://github.com/auth-it-center/sslcheck/releases/download/v#{version}/sslcheck_Linux_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "6836cd450fa3371dad6b6c906f0f3904297d39f54319c23a691a0868d2e18d0f"
+      sha256 "da020d22b3daa3980b3879e6ac6e9e455e72698d7d5fef52c48dc560487e6905"
       url "https://github.com/auth-it-center/sslcheck/releases/download/v#{version}/sslcheck_Linux_arm64.tar.gz"
     end
   end
